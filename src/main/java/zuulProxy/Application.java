@@ -1,4 +1,4 @@
-package resourceserver;
+package zuulProxy;
 
 /**
  * Created by Izzy on 17/08/15.
