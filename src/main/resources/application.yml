@@ -1,12 +1,12 @@
 zuul:
   routes:
-    test:
-      path: /test/**
-      url:  http://localhost:8000
+    api:
+      api: /api/**
+      url:  http://localhost:8082
 
     home:
       path: /**
-      url: http://localhost:3000
+      url: http://localhost:3001
 
 server:
-  port: 9000
+  port: 9999
